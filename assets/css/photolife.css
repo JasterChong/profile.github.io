@@ -1,0 +1,44 @@
+h1.main3 
+{ 
+  color: white;
+  font-size: 40px;
+  text-shadow: 6px 6px 5px #00ffe5;
+  text-indent: 40px; 
+  text-align: center;
+}
+
+
+
+div.gallery2 
+{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  height: 550px;
+  overflow: hidden;
+}
+
+
+div.gallery2 img 
+{
+  width: 400px;
+  height: 350px;
+}
+
+div.desc2 
+{
+  padding: 25px;
+  margin: 0;
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 24px;
+  background-color:#DDA0DD;
+}
+
+div.gallery2:hover {
+  border: 2px solid #00ffe5;
+}

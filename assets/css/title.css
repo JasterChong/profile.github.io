@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:100,200,300,400,500,600,700,800,900')
+
+*
+{
+ 	padding:0px;
+ 	margin:0px;
+ 	border:0px;
+ 	box-sizing: border-box;
+ }
+
+ body
+ {
+	background-image: url(../photo/aXO3DdT.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: relative;
+    z-index: -10;
+    margin: 0;
+ }
+
+
+
+nav
+ {
+	width: 100%;
+	background:white;
+	height: 150px;
+
+
+ }
+
+ ul
+ {
+ 	padding: 0;
+	margin: 0 0 0 150px;
+	list-style: none;
+	float: right;
+
+ }
+
+
+ 
+ li
+ {
+ 	float: left;
+ 	padding-top: 20px;
+ 	padding-left: 50px;
+ 	display: inline-block;
+
+ }
+
+ .logo img
+ {	
+	position: absolute;
+	margin-top: 0;
+	margin-left: 10px;
+	padding-left:50px; 
+	width:200px;
+	height:150px;
+ }
+
+ nav a
+ {
+ 	width: 100px;
+ 	display: inline-block;
+ 	padding:20px 15px;
+ 	text-decoration: none;
+ 	font-family: 'Noto Sans TC', sans-serif;
+ 	font-size: 25px;
+ 	color: black;
+ 	text-align: center;
+ 	font-weight: lighter;
+ }
+
+ .cool-link::after
+ {
+ 	content: '';
+ 	display: block;
+ 	width:0;
+ 	height: 5px;
+ 	background:#9932CC;
+ 	transition: width  .55s; 
+ }
+
+ .cool-link:hover::after
+ {
+ 	width: 100%;
+ 	background:#4169E1;
+ 	transition: width .3s;
+ }
+ .banner 
+{
+  width: 100%;
+    position: relative;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.banner .call
+{
+	text-align: right;
+}
+
+.test
+{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+	background-size: 350% 350%;
+	position: relative; 
+	animation: animate 10s ease-in-out infinite;
+
+	text-align: center;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		background-position: : 0 50%;
+	}
+	50%
+	{
+		background-position: : 100% 50%;
+	}
+	100%
+	{
+		background-position: : 0 50%;
+	}
+}
+
+h1
+{
+	font-size: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border:3px solid #fff;
+	position: absolute;
+	top: 35%;
+	padding-left: 4%;
+	padding-right:4%; 
+	text-align: center;
+	transform: translate(50%,-50%);
+	
+}
+
+ 
+
+
+ @media screen and (max-width: 800px) 
+ {
+  .leftcolumn, .rightcolumn 
+  {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
